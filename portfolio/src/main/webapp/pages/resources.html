@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mentorship App</title>
+    <link rel="stylesheet" href="../css/resources.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!--Import Google Icon Font-->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <!-- Compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-alpha.2/css/materialize.min.css"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Vollkorn&display=swap"
+      rel="stylesheet"
+    />
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="nav-wrapper">
+          <a href="../index.html" class="brand-logo"><span class="material-icons">
+            computer
+            </span></a>
+          
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger"
+            ><i class="material-icons">menu</i></a
+          >
+          <ul class="right hide-on-med-and-down">
+            <li><a href="./mentor.html">Mentors</a></li>
+            <li><a href="./mentee.html">Mentees</a></li>
+            <li><a href="./pages/resources.html">Resources</a></li>
+            <li><a href="./pages/signUp.html">Sign Up</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <ul class="sidenav" id="mobile-demo">
+        <li><a href="./mentor.html">Mentors</a></li>
+        <li><a href="./mentee.html">Mentees</a></li>
+        <li><a href="./pages/resources.html">Resources</a></li>
+        <li><a href="./pages/signUp.html">Sign Up</a></li>
+      </ul>
+    </header>
+    <main>
+        <div class="row">
+            <div class="col s12">
+                <div class="white-text">
+            <ul class="tabs">
+                <li class="tab col s2"><a href="#start">Getting Started</a></li>
+                <li class="tab col s2"><a href="#java">Java Development</a></li>
+                <li class="tab col s2"><a href="#web">Web Development</a></li>
+                <li class="tab col s2"><a href="#data-structs">Algorithms</a></li>
+                <li class="tab col s2"><a href="#math">Foundational Math</a></li>
+                <li class="tab col s2"><a href="#useful-tools">Useful Tools</a></li>
+            </ul>
+            </div>
+            </div>
+            <br />
+            <div class="container">
+            
+            <div id="start" class="col s12">
+                <h4>For Those Looking for a Complete Introduction to Computer Science:</h4>
+                <!-- dynamically load resources from java -->
+                <div id="getting-started-container">
+                </div>
+            </div>
+
+            <div id="java" class="col s12">
+                <h4>For Those Looking Specifically for Java Resources:</h4>
+                <div id="java-container">
+                </div>
+            </div>
+
+
+            <div id="web" class="col s12">
+                <h4>For Those Looking to Begin Web-development:</h4>
+                <div id="web-container">
+                <div class="row">
+                    <div class="col s12 m12">
+                    <div class="card brown lighten-2">
+                        <div class="card-content white-text">
+                        <span class="card-title">The Odin Project</span>
+                        <p>If you know that you want to spend a good amount of time becoming a proficient web developer, then this is the comprehensive resource for you. Here, you can learn front-end and back-end development in detail by being challenged with fun, rigorous projects. A benefit of this resource is that it teaches you various ways of setting up a development environment for your projects. Additionally, it frequently points you to great outside resources (like this page is doing). Most importantly, it has a very active Discord server, which fosters an aspect of community rarely found elsewhere on learning platforms.</p>
+                        </div>
+                        <div class="card-action pink-text lighten-5">
+                        <a href="https://www.theodinproject.com/">Visit Site for More Information</a>
+                        
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <div class="row">
+                <div class="col s12 m12">
+                <div class="card brown lighten-2">
+                    <div class="card-content white-text">
+                    <span class="card-title">freeCodeCamp()</span>
+                    <p>Here is another resource that is great for learning HTML, CSS, and JavaScript. The benefit of this resource is that it is interactive, so you are given small problems to do as you learn, which help familiarize you with actual coding. </p>
+                    </div>
+                    <div class="card-action pink-text lighten-5">
+                    <a href="https://www.freecodecamp.org/learn/responsive-web-design/">Visit Site for More Information</a>
+                    
+                    </div>
+                </div>
+                </div>
+            </div>
+                <div class="row">
+                <div class="col s12 m12">
+                <div class="card brown lighten-2">
+                    <div class="card-content white-text">
+                    <span class="card-title">W3schools</span>
+                    <p>Here is a resource that is great if you don’t need to necessarily practice coding but just need to learn about what things mean. It is a great supplement or reference when you can’t remember a syntax rule or two</p>
+                    </div>
+                    <div class="card-action pink-text lighten-5">
+                    <a href="https://www.w3schools.com/">Visit Site for More Information</a>
+                    
+                    </div>
+                </div>
+                </div>
+                </div>
+            </div>
+            </div>
+
+            <div id="data-structs" class="col s12">
+                <h4>For Those Who Want to Learn Data Structures and Algorithms / Problem Solving:</h4>
+                <div class="row">
+                <div class="col s12 m12">
+                <div class="card brown lighten-2">
+                    <div class="card-content white-text">
+                    <span class="card-title">Princeton Algorithms</span>
+                    <p>Data Structures and Algorithms course. It is very extensive, challenging, and rewarding. If you complete this, then you should be well prepared to start solving problems that show up during technical interviews.</p>
+                    </div>
+                    <div class="card-action pink-text lighten-5">
+                    <a href="https://www.coursera.org/learn/algorithms-part1">Visit Site for More Information</a>
+                    
+                    </div>
+                </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col s12 m12">
+                <div class="card brown lighten-2">
+                    <div class="card-content white-text">
+                    <span class="card-title">Cracking the Coding Interview</span>
+                    <p>If you have ever been preparing for a technical interview, then you have probably heard of this book. If not, then here you go! It is a staple when it comes to interview prep, as it covers thought and communication processes as well as core data structures and algorithms concepts needed to solve questions.</p>
+                    </div>
+                    <div class="card-action pink-text lighten-5">
+                    <a href="https://www.crackingthecodinginterview.com/">Visit Site for Book Information</a>
+                    
+                    </div>
+                </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col s12 m12">
+                <div class="card brown lighten-2">
+                    <div class="card-content white-text">
+                    <span class="card-title">Leetcode</span>
+                    <p>As with Cracking the Coding Interview, you may have already heard of this if you are searching for a job or internship. If not, then this is a website where you can practice solving coding problems that will be very similar to those you will see in technical interviews. There are many other sites like Leetcode, so you can choose an alternative if you don’t enjoy the website for one reason or another</p>
+                    </div>
+                    <div class="card-action pink-text lighten-5">
+                    <a href="https://leetcode.com/">Visit Site for More Information</a>
+                    
+                    </div>
+                </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col s12 m12">
+                <div class="card brown lighten-2">
+                    <div class="card-content white-text">
+                    <span class="card-title">Coding Bat</span>
+                    <p>This is another website where you can practice coding problems in Java and Python. The questions are usually much simpler than those on sites like Leetcode, but they are excellent warm-up exercises or refreshers on certain topics, such as recursion</p>
+                    </div>
+                    <div class="card-action pink-text lighten-5">
+                    <a href="https://codingbat.com/java">Visit Site for More Information</a>
+                    
+                    </div>
+                </div>
+                </div>
+            </div>
+            </div>
+
+            <div id="math" class="col s12">
+                <h4>For Those Who Want to Learn Math that Frequently Appears in Computer Science:</h4>
+                <div class="row">
+                <div class="col s12 m12">
+                <div class="card brown lighten-2">
+                    <div class="card-content white-text">
+                    <span class="card-title">Essence of Linear Algebra</span>
+                    <p>This is a YouTube series that is an amazing supplement to learning Linear Algebra in whatever setting you are in. It has great visualizations, and it really lets you appreciate how cool the subject can be in theory and in practice.</p>
+                    </div>
+                    <div class="card-action pink-text lighten-5">
+                    <a href="https://www.youtube.com/watch?v=fNk_zzaMoSs&list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab">Visit YouTube channel</a>
+                    
+                    </div>
+                </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col s12 m12">
+                <div class="card brown lighten-2">
+                    <div class="card-content white-text">
+                    <span class="card-title">Essence of Calculus</span>
+                    <p>Same YouTube channel as Essence of Linear Algebra--cannot recommend this resource enough. </p>
+                    </div>
+                    <div class="card-action pink-text lighten-5">
+                    <a href="https://www.youtube.com/watch?v=WUvTyaaNkzM&list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr">Visit YouTube Channel</a>
+                    
+                    </div>
+                </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col s12 m12">
+                <div class="card brown lighten-2">
+                    <div class="card-content white-text">
+                    <span class="card-title">Discrete Math</span>
+                    <p>This is a free online course from MIT Open Courseware. It is an in-depth course that has great lectures and also very challenging problem sets that will assure you have a good grasp of the concepts taught. </p>
+                    </div>
+                    <div class="card-action pink-text lighten-5">
+                    <a href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-fall-2010/">Visit Site for More Information</a>
+                    
+                    </div>
+                </div>
+                </div>
+            </div>
+            </div>
+
+            <div id="useful-tools" class="col s12">
+                <h4>For Those Who Need Quick Help with Useful Tools:</h4>
+                <h5>Command Line</h5>
+                <div class="row">
+                    <div class="col s12 m12">
+                    <div class="card brown lighten-2">
+                        <div class="card-content white-text">
+                        <span class="card-title">Linux Journey</span>
+                        <p>This resource teaches you about the command line and much much more if you desire, not limited to text editors and networking in the Linux environment. Though comprehensive, this resource is great because it is interactive and has many sections that can be completed in a short amount of time.</p>
+                        </div>
+                        <div class="card-action pink-text lighten-5">
+                        <a href="https://linuxjourney.com/">Visit Site for More Information</a>
+                        
+                        </div>
+                    </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col s12 m12">
+                    <div class="card brown lighten-2">
+                        <div class="card-content white-text">
+                        <span class="card-title">The Linux Command Line</span>
+                        <p>This is a go-to book that teaches basic commands, shell scripting, and much more. It is heavily detailed, and it is completely free to download the book as a PDF file. </p>
+                        </div>
+                        <div class="card-action pink-text lighten-5">
+                        <a href="http://linuxcommand.org/tlcl.php">Visit Site for More Information</a>
+                        
+                        </div>
+                    </div>
+                    </div>
+                </div>
+
+                <h5>Git and GitHub</h5>
+                <div class="row">
+                    <div class="col s12 m12">
+                    <div class="card brown lighten-2">
+                        <div class="card-content white-text">
+                        <span class="card-title">Udacity Course</span>
+                        <p>Git and GitHub course on Udacity that is completely free! </p>
+                        </div>
+                        <div class="card-action pink-text lighten-5">
+                        <a href="https://www.udacity.com/course/version-control-with-git--ud123">Visit Site for More Information</a>
+                        
+                        </div>
+                    </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col s12 m12">
+                    <div class="card brown lighten-2">
+                        <div class="card-content white-text">
+                        <span class="card-title">Atlassian Git Tutorial</span>
+                        <p>This is a great tutorial on Git that is great for beginners or even those looking to refresh themselves on advanced tooling in workflow. It has a lot of overlap with GitHub’s own tutorial, but the layout is very different, so you may find it preferable.</p>
+                        </div>
+                        <div class="card-action pink-text lighten-5">
+                        <a href="https://www.atlassian.com/git/tutorials/learn-git-with-bitbucket-cloud">Visit Site for More Information</a>
+                        
+                        </div>
+                    </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col s12 m12">
+                    <div class="card brown lighten-2">
+                        <div class="card-content white-text">
+                        <span class="card-title">GitHub</span>
+                        <p>The GitHub website itself is a great place to learn how to use the tool! A benefit of this is that you will be able to fully look at the layout of GitHub web pages while also following the tutorial.</p>
+                        </div>
+                        <div class="card-action pink-text lighten-5">
+                        <a href="https://docs.github.com/en/get-started">Visit Site for More Information</a>
+                        
+                        </div>
+                    </div>
+                    </div>
+                </div>
+
+                <h5>Other Cool Sites</h5>
+                <div class="row">
+                    <div class="col s12 m12">
+                    <div class="card brown lighten-2">
+                        <div class="card-content white-text">
+                        <span class="card-title">Internship List</span>
+                        <p>Here is a site that is frequently updated to show companies that currently have applications for internships open.</p>
+                        </div>
+                        <div class="card-action pink-text lighten-5">
+                        <a href="https://intern.supply/">Visit Site for More Information</a>
+                        
+                        </div>
+                    </div>
+                    </div>
+                </div>                
+            </div>
+        </div>
+
+        </div>
+    </div>
+</main>
+    <footer class="page-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col l6 s12">
+            <h5>Mentorship Simplified</h5>
+            <p class="text-lighten-4">Your Time is Now</p>
+          </div>
+          <div class="col l4 offset-l2 s12">
+            <h5>Links</h5>
+            <ul>
+              <li>
+                <a class="text-lighten-3" href="../index.html">Home</a>
+              </li>
+              <li><a class="text-lighten-3" href="./mentor.html">Mentors</a></li>
+              <li><a class="text-lighten-3" href="./mentee.html">Mentees</a></li>
+              <li>
+                <a class="text-lighten-3" href="./resources.html">Resources</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <div class="container"><p>© 2021 Google SPS</p></div>
+      </div>
+    </footer>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-alpha.2/js/materialize.min.js"></script>
+    <script src="../js/resources.js"></script>
+  </body>
+</html>
